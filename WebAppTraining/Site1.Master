@@ -29,6 +29,9 @@
         <div id="contentSection">
             <asp:ContentPlaceHolder ID="BodyContentPlaceHolder" runat="server">
             </asp:ContentPlaceHolder>
+
+             <asp:ContentPlaceHolder ID="BodySubContentPlaceHolder" runat="server">
+            </asp:ContentPlaceHolder>
         </div>
         <footer id="footer">
             Copyright @2022 Trainings.

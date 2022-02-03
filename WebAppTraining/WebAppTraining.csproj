@@ -70,6 +70,7 @@
     <Content Include="About.aspx" />
     <Content Include="App_Themes\Theme1\Theme1.css" />
     <Content Include="App_Themes\Theme2\Theme2.css" />
+    <Content Include="ASPNETTags.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\custom.css" />
     <Content Include="Default.aspx" />
@@ -85,6 +86,13 @@
     </Compile>
     <Compile Include="About.aspx.designer.cs">
       <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ASPNETTags.aspx.cs">
+      <DependentUpon>ASPNETTags.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ASPNETTags.aspx.designer.cs">
+      <DependentUpon>ASPNETTags.aspx</DependentUpon>
     </Compile>
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
