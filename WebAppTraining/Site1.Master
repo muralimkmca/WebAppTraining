@@ -1,0 +1,38 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="WebAppTraining.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="Content/custom.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="Home.aspx">Home</a></li>
+                    <li><a href="About.aspx">About</a></li>
+                    <li><a href="Product.aspx">Products</a></li>
+                    <li><a href="Contact.aspx">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <aside id="side">
+            <h1>News</h1>
+            <a href="#"><p>Go to our products information</p></a>
+            <a href="#"><p>How to use our products</p></a>
+        </aside>
+        <div id="contentSection">
+            <asp:ContentPlaceHolder ID="BodyContentPlaceHolder" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <footer id="footer">
+            Copyright @2022 Trainings.
+        </footer>
+    </form>
+</body>
+</html>
